@@ -20,7 +20,7 @@ class FraudServiceTest {
     @Autowired
     private FraudService subject;
     @Test
-    public void testFraudController(){
+    void testFraudController(){
         assertNotNull(subject.checkTheFraud());
     }
 }

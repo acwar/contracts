@@ -7,7 +7,6 @@
         <artifactId>contracts</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.aag.techblog</groupId>
     <artifactId>contracts.producer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>producer</name>
@@ -31,7 +30,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
-            <version>2.2.10.RELEASE</version>
             <scope>test</scope>
         </dependency>
         <dependency>

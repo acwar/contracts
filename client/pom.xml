@@ -7,7 +7,6 @@
         <artifactId>contracts</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.aag.techblog</groupId>
     <artifactId>contracts.client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>client</name>
@@ -37,12 +36,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
